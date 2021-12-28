@@ -14,7 +14,7 @@ gerenciar nosso fluxo de autenticação e autorização em nossa API RESTful.
 - [JWT Flow](https://whimsical.com/jwt-flow-GD3nntYsr9e5ob4NPnzNux@2Ux7TurymN7CSb9EH6Bg)
 
 ## Fluxo do JWT
-<img src="https://i.ibb.co/T1zL1mc/JWT-Flow.png" />
+<img src="https://i.ibb.co/ZffTx4D/fluxo-jwt.jpg" />
 
 ## Tecnologias
 
