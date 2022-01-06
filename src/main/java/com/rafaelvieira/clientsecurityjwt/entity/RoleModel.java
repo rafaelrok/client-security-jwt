@@ -12,7 +12,7 @@ import java.time.LocalDateTime;
 @Entity
 @NoArgsConstructor
 @Table(name = "role")
-public class Role {
+public class RoleModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -24,7 +24,7 @@ public class Role {
     @Column(name = "created_at")
     private LocalDateTime createdAt;
 
-    public Role(String name) {
+    public RoleModel(String name) {
         this.name = name;
     }
 

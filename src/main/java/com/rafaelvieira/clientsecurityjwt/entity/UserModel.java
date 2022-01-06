@@ -15,7 +15,7 @@ import java.util.UUID;
 @Entity
 @NoArgsConstructor
 @Table(name = "user")
-public class User {
+public class UserModel {
 
     @Id
     private String id;
@@ -31,9 +31,9 @@ public class User {
     private LocalDateTime createdAt;
 
     @ManyToMany(fetch = FetchType.EAGER)
-    private List<Role> roles;
+    private List<RoleModel> roles;
 
-    public User(String name, String email, String password) {
+    public UserModel(String name, String email, String password) {
         this.name = name;
         this.email = email;
         this.password = password;
